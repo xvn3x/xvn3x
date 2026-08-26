@@ -25,6 +25,8 @@ Self-hosted автоматизация Instagram: комментарий с кл
 [![Repository](./assets/buttons/repository.svg)](https://github.com/xvn3x/comment-to-dm)
 [![Installation guide](./assets/buttons/guide.svg)](https://teletype.media/@xvn3x/Wu97U0Nl5wD)
 
+<img src="./assets/animations/ghost.gif" width="13%" align="right" alt="Пиксельное привидение">
+
 ### 🤝 Связаться
 
 Открыт к обратной связи, помощи с установкой Comment to DM и разработке полезных автоматизаций.
@@ -33,12 +35,10 @@ Self-hosted автоматизация Instagram: комментарий с кл
   <a href="https://t.me/xvn3xx"><img src="./assets/buttons/telegram.svg" height="30" alt="Telegram @xvn3xx"></a>
 </div>
 
-<br>
+<br clear="right">
 
 <div align="center">
-  <img src="./assets/animations/hands.gif" width="31%" alt="Анимация рук">
-  <img src="./assets/animations/dove.gif" width="31%" alt="Анимация голубя">
-  <img src="./assets/animations/ghost.gif" width="31%" alt="Анимация привидения">
+  <img src="./assets/animations/hands.gif" width="42%" alt="Анимация рук">
 </div>
 
 <!-- This repository powers the public @xvn3x profile. -->
