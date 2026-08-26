@@ -8,10 +8,9 @@
 
 
 <pre>
-⚙️ Self-hosted продукты • автоматизация
-🧩 TypeScript • React • Node.js • PostgreSQL
-🐳 Docker • VPS • GitHub Actions
-🤖 Codex • Claude Code • AI-assisted development
+⚙️ Self-hosted продукты • AI agents • automation
+🐧 Linux • Flipper Zero • moddable gadgets
+🤖 Codex • Claude Code • custom skills • Hermes • OpenClaw
 </pre>
 
 <br clear="right">
