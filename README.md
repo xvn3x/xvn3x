@@ -33,4 +33,12 @@ Self-hosted автоматизация Instagram: комментарий с кл
   <a href="https://t.me/xvn3xx"><img src="./assets/buttons/telegram.svg" height="30" alt="Telegram @xvn3xx"></a>
 </div>
 
+<br>
+
+<div align="center">
+  <img src="./assets/animations/hands.gif" width="31%" alt="Анимация рук">
+  <img src="./assets/animations/dove.gif" width="31%" alt="Анимация голубя">
+  <img src="./assets/animations/ghost.gif" width="31%" alt="Анимация привидения">
+</div>
+
 <!-- This repository powers the public @xvn3x profile. -->
