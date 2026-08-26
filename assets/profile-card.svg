@@ -1,51 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="500" viewBox="0 0 520 500" role="img" aria-labelledby="title description">
   <title id="title">xvn3x — open-source automation</title>
-  <desc id="description">A dark profile card with a Comment to Direct workflow.</desc>
+  <desc id="description">A compact profile card for the creator of Comment to DM.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#191a18"/>
-      <stop offset="1" stop-color="#2a2925"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1b19"/>
+      <stop offset="1" stop-color="#24241f"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f3a36b"/>
-      <stop offset="1" stop-color="#8fa77d"/>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b86f43"/>
+      <stop offset=".55" stop-color="#91a87d"/>
+      <stop offset="1" stop-color="#6d3cf3"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity=".28"/>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".24"/>
     </filter>
   </defs>
 
-  <rect width="480" height="560" rx="38" fill="url(#bg)"/>
-  <circle cx="412" cy="68" r="72" fill="#8fa77d" opacity=".08"/>
-  <circle cx="45" cy="505" r="96" fill="#f3a36b" opacity=".06"/>
+  <rect x="1" y="1" width="518" height="498" rx="34" fill="url(#background)" stroke="#3b3b35" stroke-width="2"/>
+  <rect x="36" y="34" width="448" height="3" rx="1.5" fill="url(#rule)" opacity=".78"/>
 
-  <g filter="url(#shadow)">
-    <rect x="48" y="52" width="92" height="92" rx="24" fill="#efede3"/>
-    <path d="M76 82h36a14 14 0 0 1 14 14v7a14 14 0 0 1-14 14H98l-12 11v-11H76a14 14 0 0 1-14-14v-7a14 14 0 0 1 14-14Z" fill="none" stroke="#302f2c" stroke-width="5" stroke-linejoin="round"/>
-    <path d="m91 98 7 7 14-16" fill="none" stroke="#9a5a37" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(36 62)">
+    <g filter="url(#soft-shadow)">
+      <rect width="76" height="76" rx="20" fill="#efede3"/>
+      <path d="M23 23h30a11 11 0 0 1 11 11v6a11 11 0 0 1-11 11H42L31 61V51h-8a11 11 0 0 1-11-11v-6a11 11 0 0 1 11-11Z" fill="none" stroke="#302f2c" stroke-width="4" stroke-linejoin="round"/>
+      <path d="m31 36 6 6 12-15" fill="none" stroke="#a45d35" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <text x="102" y="35" fill="#f6f3eb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="750">xvn3x</text>
+    <text x="104" y="61" fill="#9f9c92" font-family="IBM Plex Mono,Consolas,monospace" font-size="13" letter-spacing="1.7">OPEN-SOURCE BUILDER</text>
   </g>
 
-  <text x="48" y="202" fill="#f5f2e9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="50" font-weight="750">xvn3x</text>
-  <text x="50" y="238" fill="#aaa79e" font-family="IBM Plex Mono,Consolas,monospace" font-size="16" letter-spacing="2">BUILD · SHARE · IMPROVE</text>
+  <line x1="36" y1="166" x2="484" y2="166" stroke="#3b3b35"/>
 
-  <g transform="translate(48 292)">
-    <rect width="384" height="176" rx="24" fill="#222320" stroke="#44443e"/>
-    <text x="28" y="38" fill="#858278" font-family="IBM Plex Mono,Consolas,monospace" font-size="13" letter-spacing="1.4">CURRENT PROJECT</text>
-    <text x="28" y="78" fill="#f5f2e9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700">Comment to DM</text>
+  <text x="36" y="202" fill="#91a87d" font-family="IBM Plex Mono,Consolas,monospace" font-size="13" letter-spacing="1.7">CURRENT FOCUS</text>
+  <text x="36" y="240" fill="#f6f3eb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="720">Comment to DM</text>
+  <text x="36" y="269" fill="#aaa79e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Self-hosted Instagram automation</text>
 
-    <g transform="translate(28 106)">
-      <rect width="82" height="40" rx="12" fill="#34342f" stroke="#55544c"/>
-      <text x="41" y="25" text-anchor="middle" fill="#e8e4da" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">comment</text>
-      <path d="M120 20h43" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
-      <path d="m157 13 9 7-9 7" fill="none" stroke="#8fa77d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="179" width="67" height="40" rx="12" fill="#34342f" stroke="#55544c"/>
-      <text x="212.5" y="25" text-anchor="middle" fill="#e8e4da" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">reply</text>
-      <path d="M259 20h36" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
-      <path d="m289 13 9 7-9 7" fill="none" stroke="#8fa77d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="308" width="48" height="40" rx="12" fill="#6d3cf3"/>
-      <text x="332" y="25" text-anchor="middle" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">DM</text>
+  <g transform="translate(36 294)">
+    <rect width="448" height="102" rx="20" fill="#292a25" stroke="#474740"/>
+
+    <g transform="translate(20 27)">
+      <rect width="104" height="48" rx="14" fill="#35362f" stroke="#525249"/>
+      <circle cx="20" cy="24" r="5" fill="#b86f43"/>
+      <text x="34" y="30" fill="#eeebe2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650">comment</text>
+    </g>
+
+    <path d="M139 51h32" stroke="#91a87d" stroke-width="4" stroke-linecap="round"/>
+    <path d="m165 43 9 8-9 8" fill="none" stroke="#91a87d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(188 27)">
+      <rect width="92" height="48" rx="14" fill="#35362f" stroke="#525249"/>
+      <circle cx="20" cy="24" r="5" fill="#91a87d"/>
+      <text x="34" y="30" fill="#eeebe2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650">reply</text>
+    </g>
+
+    <path d="M295 51h32" stroke="#91a87d" stroke-width="4" stroke-linecap="round"/>
+    <path d="m321 43 9 8-9 8" fill="none" stroke="#91a87d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(344 27)">
+      <rect width="84" height="48" rx="14" fill="#6d3cf3"/>
+      <circle cx="20" cy="24" r="5" fill="#fff" opacity=".92"/>
+      <text x="34" y="30" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="750">Direct</text>
     </g>
   </g>
 
-  <text x="48" y="518" fill="#8fa77d" font-family="IBM Plex Mono,Consolas,monospace" font-size="14">OPEN SOURCE · SELF-HOSTED</text>
+  <g transform="translate(36 424)" font-family="IBM Plex Mono,Consolas,monospace" font-size="12" letter-spacing=".7">
+    <rect width="118" height="34" rx="10" fill="#302f2b" stroke="#484840"/>
+    <text x="59" y="22" text-anchor="middle" fill="#c8c4b8">OPEN SOURCE</text>
+
+    <rect x="130" width="118" height="34" rx="10" fill="#302f2b" stroke="#484840"/>
+    <text x="189" y="22" text-anchor="middle" fill="#c8c4b8">SELF-HOSTED</text>
+
+    <rect x="260" width="108" height="34" rx="10" fill="#302f2b" stroke="#484840"/>
+    <text x="314" y="22" text-anchor="middle" fill="#c8c4b8">META API</text>
+
+    <text x="420" y="22" text-anchor="end" fill="#91a87d">LIVE</text>
+    <circle cx="433" cy="17" r="6" fill="#91a87d"/>
+  </g>
 </svg>
