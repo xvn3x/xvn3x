@@ -1,21 +1,6 @@
 <img src="./assets/profile-card.svg" width="31%" align="right" alt="xvn3x — open-source automation">
 
-### 👋 Привет, я El — `xvn3x`
-
-**Создаю понятные open-source продукты, которые можно развернуть у себя.**
-
-
-<pre>
-⚙️ Self-hosted продукты • AI agents • automation
-🐧 Linux • Flipper Zero • moddable gadgets
-🤖 Codex • Claude Code • custom skills • Hermes • OpenClaw
-</pre>
-
-<br clear="right">
-
-### 🚀 Сейчас работаю над
-
-#### [Comment to DM](https://github.com/xvn3x/comment-to-dm)
+### 👋 `xvn3x`
 
 Self-hosted автоматизация Instagram: комментарий с ключевым словом → публичный ответ → сообщение в Direct. Работает через официальный Meta API, хранит данные на сервере владельца и распространяется бесплатно по лицензии MIT.
 
