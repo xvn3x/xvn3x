@@ -12,7 +12,7 @@ Self-hosted автоматизация Instagram: комментарий с кл
 Открыт к обратной связи, помощи с установкой Comment to DM и разработке полезных автоматизаций.
 
 <div align="center">
-  <a href="https://t.me/xanqe"><img src="./assets/buttons/telegram.svg" height="30" alt="Telegram @xvn3x_ai"></a>&nbsp;
+  <a href="https://t.me/xanqe"><img src="./assets/buttons/telegram.svg" height="30" alt="Telegram @xanqe"></a>&nbsp;
 
   <br><br>
   <img src="./assets/animations/hands.gif" width="42%" alt="Анимация рук">
